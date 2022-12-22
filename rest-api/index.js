@@ -11,12 +11,16 @@ const widgets = [
     { id: 3, name: "Crazlinger", price: 59.99 },
 ]
 
+const getWidgetById = function(id){
+    return widgets.find(x => x.id == req.params.id)
+}
+
 app.get('/widgets', (req, res) => {
     res.send(widgets)
 })
 
 app.get('/widgets/:id', (req, res) => {
-    const result = widgets.find(x => x.id == req.params.id)
+    const result = getWidgetById(req.params.id)
     if (typeof result === 'undefined') {
         return res.status(404).send({ error: "Widget not found" })
     }
@@ -24,7 +28,7 @@ app.get('/widgets/:id', (req, res) => {
 })
 
 app.put('/widgets/:id', (req, res) => {
-    const result = widgets.find(x => x.id == req.params.id)
+    const result = getWidgetById(req.params.id)
     if (typeof widgets[req.params.id - 1] === 'undefined') {
         return res.status(404).send({ error: "Widget not found" })
     }
@@ -39,10 +43,11 @@ app.put('/widgets/:id', (req, res) => {
 })
 
 app.delete('/widgets/:id', (req, res) => {
-    if (typeof widgets[req.params.id - 1] === 'undefined') {
+    const widgetToDelete = getWidgetById(req.params.id)
+    if (typeof widgetToDelete === 'undefined') {
         return res.status(404).send({ error: "Widget not found" })
     }
-    widgets.splice(req.params.id - 1, 1)
+    widgets = widgets.filter(w => w.id !== widgetToDelete.id)
     res.status(204).send({error: "no content"})
 })
 
@@ -51,7 +56,7 @@ app.post('/widgets', (req, res) => {
         return res.status(400).send({ error: 'One or all params are missing' })
     }
     let newWidget = {
-        id: widgets.length + 1,
+        id: widgets[widgets.length - 1].id + 1,
         price: req.body.price,
         name: req.body.name
     }

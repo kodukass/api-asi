@@ -25,3 +25,30 @@ C:\Users\koduk\OneDrive\Desktop\rest-api-dotnet\obj\Debug\net6.0\refint\rest-api
 C:\Users\koduk\OneDrive\Desktop\rest-api-dotnet\obj\Debug\net6.0\rest-api-dotnet.pdb
 C:\Users\koduk\OneDrive\Desktop\rest-api-dotnet\obj\Debug\net6.0\rest-api-dotnet.genruntimeconfig.cache
 C:\Users\koduk\OneDrive\Desktop\rest-api-dotnet\obj\Debug\net6.0\ref\rest-api-dotnet.dll
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\bin\Debug\net6.0\appsettings.json
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\bin\Debug\net6.0\rest-api-dotnet.exe
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\bin\Debug\net6.0\rest-api-dotnet.deps.json
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\bin\Debug\net6.0\rest-api-dotnet.runtimeconfig.json
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\bin\Debug\net6.0\rest-api-dotnet.dll
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\bin\Debug\net6.0\rest-api-dotnet.pdb
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\obj\Debug\net6.0\rest-api-dotnet.csproj.AssemblyReference.cache
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\obj\Debug\net6.0\rest-api-dotnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\obj\Debug\net6.0\rest-api-dotnet.AssemblyInfoInputs.cache
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\obj\Debug\net6.0\rest-api-dotnet.AssemblyInfo.cs
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\obj\Debug\net6.0\rest-api-dotnet.csproj.CoreCompileInputs.cache
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\obj\Debug\net6.0\rest-api-dotnet.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\obj\Debug\net6.0\rest-api-dotnet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\obj\Debug\net6.0\scopedcss\bundle\rest-api-dotnet.styles.css
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\obj\Debug\net6.0\rest-api-dotnet.csproj.CopyComplete
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\obj\Debug\net6.0\rest-api-dotnet.dll
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\obj\Debug\net6.0\refint\rest-api-dotnet.dll
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\obj\Debug\net6.0\rest-api-dotnet.pdb
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\obj\Debug\net6.0\rest-api-dotnet.genruntimeconfig.cache
+C:\Users\koduk\OneDrive\Desktop\ \kooli jura\proge\2. aasta\api-asi\api-asi\rest-api-dotnet\obj\Debug\net6.0\ref\rest-api-dotnet.dll
