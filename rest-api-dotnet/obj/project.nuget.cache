@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kymHj9qg+OR57LlGfbNIO1IVtb7ThdPIbDvgGkvUGxYr3wX8EuaddQ0Q0D4NklIMdISxlOIZ0i14soUcAW4nCQ==",
+  "dgSpecHash": "8JlBCN/RprPd7TcMTyX1eY/XOGPg6KKxNhKjRS0dAp3lfIECaW4NABgLfljl914D+ma93EsIppjjhtwsM5IR/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\koduk\\OneDrive\\Desktop\\ \\kooli jura\\proge\\2. aasta\\api-asi\\api-asi\\rest-api-dotnet\\rest-api-dotnet.csproj",
+  "projectFilePath": "C:\\Users\\koduk\\OneDrive\\Dokumendid\\api-asi\\api-asi\\rest-api-dotnet\\rest-api-dotnet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\koduk\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\koduk\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

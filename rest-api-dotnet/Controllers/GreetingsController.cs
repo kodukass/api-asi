@@ -1,65 +1,64 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using rest_api_dotnet.Models;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace rest_api_dotnet.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class WidgetsController : ControllerBase
+    public class GreetingsController : Controller
     {
-        private static List<Widget> _widgets = new List<Widget>()
+        private static List<Greetings> _greedings = new List<Greetings>()
         {
-            new Widget(){Id=1, Name="Cizzbor", Price=29.99m},
-            new Widget(){Id=2, Name="Woowo", Price=26.99m},
-            new Widget(){Id=3, Name="Crazlinger", Price=59.99m},
+            new Greetings(){Id=1, Recipient="Mari", Message="Tere", Sender="Tiia"},
+            new Greetings(){Id=2, Recipient="Elsa", Message="Tere", Sender="Tiia"},
+            new Greetings(){Id=3, Recipient="Mart", Message="Tere", Sender="Tiia"},
         };
 
         // GET: api/<WidgetsController>
         [HttpGet]
         public IActionResult Get()
         {
-            return new JsonResult(_widgets);
+            return new JsonResult(_greedings);
         }
 
         // GET api/<WidgetsController>/5
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            var result = _widgets.Find(x => x.Id == id);
+            var result = _greedings.Find(x => x.Id == id);
             if (result == null)
             {
-                return NotFound(new { Error = "Widget not found"});
+                return NotFound(new { Error = "Greeding not found" });
             }
             return new JsonResult(result);
         }
 
         // POST api/<WidgetsController>
         [HttpPost]
-        public IActionResult Post([FromBody] Widget value)
+        public IActionResult Post([FromBody] Greetings value)
         {
             if (value == null)
             {
                 return BadRequest();
             }
-            var newId = _widgets.Last().Id + 1;
+            var newId = _greedings.Last().Id + 1;
             value.Id = newId;
-            _widgets.Add(value);
-            return new CreatedAtActionResult(nameof(Get), nameof(WidgetsController), new {id=newId}, value);
+            _greedings.Add(value);
+            return new CreatedAtActionResult(nameof(Get), nameof(GreetingsController), new { id = newId }, value);
         }
 
         // PUT api/<WidgetsController>/5
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] Widget widget)
+        public IActionResult Put(int id, [FromBody] Greetings greetings)
         {
-            var result = _widgets.Find(x => x.Id == id);
+            var result = _greedings.Find(x => x.Id == id);
             if (result == null)
             {
                 return NotFound(new { Error = "Widget not found" });
             }
-            result.Name = widget.Name;
-            result.Price = widget.Price;
+            result.Recipient = greetings.Recipient;
+            result.Message = greetings.Message;
+            result.Sender = greetings.Sender;
             return AcceptedAtAction(nameof(Get), new { id = result.Id }, result);
         }
 
@@ -67,12 +66,12 @@ namespace rest_api_dotnet.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            var result = _widgets.Find(x => x.Id == id);
+            var result = _greedings.Find(x => x.Id == id);
             if (result == null)
             {
-                return NotFound(new { Error = "Widget not found" });
+                return NotFound(new { Error = "Greeding not found" });
             }
-            _widgets.Remove(result);
+            _greedings.Remove(result);
             return NoContent();
         }
     }
