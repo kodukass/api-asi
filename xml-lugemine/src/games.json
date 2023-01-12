@@ -1,0 +1,38 @@
+{
+    "gameslist":
+        {
+            "game":[
+                {
+                "title":{
+                    "title":"Heartstone",
+                    "lang":"en"
+                },
+                "price":"Free",
+                "platforms":{
+                    "platform":["PC","iOS"]
+                }
+                },
+                {
+                "title":{
+                    "title":"Minecraft",
+                    "lang":"en"
+                },
+                "price":29.99,
+                "platforms":{
+                    "platform":["PC","iOS","Android","Xbox"]
+                }
+                },
+                {
+                "title":{
+                    "title":"Sburb",
+                    "lang":"en"
+                },
+                "price":4.13,
+                "platforms":{
+                    "platform":["PC","Fridge"]
+                }
+                }
+            ]
+        }
+    
+}

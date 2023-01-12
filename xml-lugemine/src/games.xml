@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gameslist>
+    <game>
+        <title lang="en">Hearthstone</title>
+        <price>Free</price>
+        <platforms>
+            <platform>PC</platform>
+            <platform>iOS</platform>
+        </platforms>
+    </game>
+    <game>
+        <title lang="en">Minecraft</title>
+        <price>29.99</price>
+        <platforms>
+            <platform>PC</platform>
+            <platform>iOS</platform>
+            <platform>Android</platform>
+            <platform>Xbox</platform>
+        </platforms>
+    </game>
+    <game>
+        <title lang="en">Sburb</title>
+        <price>4.13</price>
+        <platforms>
+            <platform>PC</platform>
+            <platform>Fridge</platform>
+        </platforms>
+    </game>
+</gameslist>
